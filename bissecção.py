@@ -4,10 +4,11 @@ import math
 a=float(input("Digite a extremidade inferior do intervalo:"))
 b=float(input("Digite a extremidade superior do intervalo:"))
 e=float(input("Digite o erro:"))
+r=float(input("Digite o valor da raiz quadrada a ser calculada:"))
 
 #definir uma função
 def f(x):
-    return x**2-2
+    return x**2-r
 
 #teorema de Bolzano
 #math.fabs (módulo)
